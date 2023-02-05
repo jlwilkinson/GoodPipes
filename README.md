@@ -16,3 +16,4 @@ The tubes can be mounted to mic stands using the brackets. It is possible to mou
 
 This repository includes templates for Touch designer, Mad mapper, ableton. Contributed by Owen Hindley and Josh Wilkinson. 
 
+System designed by Josh Wilkinson and Sean Patrick O'brien.
