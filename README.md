@@ -8,7 +8,7 @@ The system consists of 11, 1m lengths of 50mm diameter poly pipe.
 1 control box. 
 
 The controller used is an Advatek 16mkII. You connect to the controller wirelessly using the router built into the control box. 
-The router network is called . The password is goodlife
+The router network is called . The password is...
 
 The Advatek controller programmer can be found here if settings need to be changed on the controller. https://www.advateklights.com/downloads/advatek-assistant
 
