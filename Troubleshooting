@@ -1,0 +1,22 @@
+The main issues with not getting the desired output on the tubes is outlines below.
+
+
+1. The DMX channel routing is not aligned between the Advatek 16 mk11 and the control software. 
+  This issue can be a pain in the ass. To figure this out connect to the Advatek 16 mk11 using the Advatek assistant app and click on LED´s
+Then click advanced output configuration. 
+
+Now you will see how each of the outputs on the Advatek 16 mk11 has been set up in terms of its DMX universe. 
+
+The pipes have 59 Pixels in them. Each with 3 Leds in each pixel. RGB. That is 177 DMX channels needed for each tube.
+
+The Advatek 16 mk11 can ouput up to 1020 pixels on each output. 
+
+Therefore a common problem is that if the outputs are setup using the Automatic sequential channels button down the bottom. 
+
+Then the first tube will work perfectly because it just goes from 1-177 on output 1. But then on output 2 you are still on DMX universe 1 but its channel 178-354   
+
+This can be an issue especially in MADMAPPER because often it is expecting that each light has its own channel. 
+
+So the best way to do it is change the formatiing so that each output has its own channel. 1-16 respectively. And each channel starts at 1 and goes to 177. 
+
+Then you just have to match this with how the fixtures are set up in MADMAPPER. 
